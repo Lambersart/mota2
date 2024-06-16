@@ -1,0 +1,15 @@
+/*
+Theme Name: mota2
+Theme URI: https://mota2.local
+Author:StefK
+Author URI:https://openclassrooms.com/fr/paths/595/projects/1150
+Description: Mon premier thème !
+Requires at least: WordPress 5.0
+Version: 1.0
+*/
+.liens {
+  justify-content: space-between;
+}
+.footer {
+  background-color: black;
+}
