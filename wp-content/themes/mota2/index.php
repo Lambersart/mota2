@@ -13,6 +13,8 @@
     <div class="imgfront">
         <img src="/mota2/wp-content/uploads/2024/06/nathalie-11.webp">
     </div>
+    <?php the_field('catégories'); ?>
+    <?php the_field('formats'); ?>
 
 </body>
 
