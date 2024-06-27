@@ -11,17 +11,13 @@
 
 <body <?php body_class(); ?>>
     <header class="header">
-        <a href="<?php echo home_url('/'); ?>">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo">
-        </a>
-        <div class="liens">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo">
 
+        <div class="liens">
             <a href="Accueil">Accueil</a>
             <a href="A propos">A propos</a>
             <a href="Contact">Contact</a>
-
         </div>
-
     </header>
 
     <?php wp_body_open(); ?>

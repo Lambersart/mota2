@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -15,8 +15,10 @@
     </div>
     <?php the_field('catégories'); ?>
     <?php the_field('formats'); ?>
-
+    <h2>Dans la page index.php</h2>
 </body>
 
 </html>
+
+
 <?php get_footer(); ?>
